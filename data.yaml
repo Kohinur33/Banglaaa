@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['LP']
+
+roboflow:
+  workspace: shin890
+  project: bangla-license-plate-mx6ny
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/shin890/bangla-license-plate-mx6ny/dataset/4
